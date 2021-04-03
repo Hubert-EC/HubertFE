@@ -1,5 +1,5 @@
 # UTE1.21-EC18A009-FE
-# Create React App [![Build Status]
+# Create React App!
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
 
