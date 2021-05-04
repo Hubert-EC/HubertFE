@@ -1,15 +1,18 @@
-.content{
-    .left{
-        width: 50%;
+.register{
+    width: 100%;
+    height: 100%;
+    >img{
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 70%;
+    }
+    .register-left{
+        width: 40%;
         height: auto;
         float: left;
         color: white;
-        img{
-            position: absolute;
-            z-index: -1;
-            height: 100%;
-            width: 50%;
-        }
+        margin-top: 90px;
         button{
             background-color: white; 
             border: 2px solid Blue;
@@ -20,42 +23,42 @@
             font-weight: bolder;
             border-radius: 10px;
             margin-left: 100px;
-            margin-top: 90px;
         }
         h1{
             font-size: 55px;
-            margin: 10px 160px 20px 70px;
+            margin-top: 10px;
             text-align: center;
         }
         h2{
             text-align: center;
             font-size: 15px;
-            margin: -25px 200px 20px 100px;
         }
     }
-    .right{
+    .register-right{
         width: 50%;
         height: auto;
         float: right;
-        .right-top{
+        //margin-right: rem;
+        margin-top: 9rem;
+        .register-right-top{
             width: 100%;
-            height: 15vh;
-            margin-top: 3rem;
+            height: 15vh;   
             h1{
-                text-align: center;
+                
                 font-size: 30px;
                 font-weight: bolder;
                 color: blue;
+                margin-left: 30rem;
             }
             h5{
                 display: inline;
-                margin-left: 14rem;
+                margin-left: 22.5rem;
             }
             a{
                 margin-left: 10px;
             }
         }
-        .right-body{
+        .register-right-body{
             width: 100%;
             height: auto;
             input{
@@ -63,6 +66,7 @@
                 width: 30rem;
                 border-radius: 4px;
                 margin: 0 0 10px 120px;
+                padding-left: 20px;
             }
             .fname{
                 height: 2rem;
@@ -70,12 +74,12 @@
             }
             .lname{
                 height: 2rem;
-                width: 21.4rem;
+                width: 21.8rem;
                 margin-left: 2px;
             }
             .so{
                 width: 3rem;
-                height: 2.3rem;
+                height: 2rem;
                 text-align: center;
                 font-size: 16px;
                 background-color: white;
@@ -90,29 +94,30 @@
                 margin-left: 0px;
             }
             .register{
-                font-size: 24px;
+                //font-size: 24px;
+                height: 2rem;
+                width: 10rem;
                 background-color: blue;
                 color: white;
                 text-align: center;
-                margin: 30px 10px 10px 280px;
+                border-radius: 8px;
+                margin: 10px 0px 10px 440px;
             }
         }
-        .right-bottom{
+        .register-right-bottom{
             width: 100%;
             height: auto;
-            margin-left: 9rem;
             h4{
                 display: inline;
-                margin-right: 30px;
                 font-size: 16px;
             }
             button{
                 height: 2rem;
-                width: 4rem;
+                width: 14.5rem;
                 background-color: blue;
                 color: white;
-                margin: 10px;
-                font-size: 24px;
+                margin-left: 10px;
+                font-size: 17px;
                 border-radius: 20px;
             }
         }

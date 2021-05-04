@@ -1,0 +1,27 @@
+.except{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+    .except-body{
+        box-shadow: 10px -10px 20px 5px #888888;
+        border: black solid 1px;
+        width: 50%;
+        text-align: center;
+        padding-top: 2rem;
+        p{
+            margin-top: 1rem;
+            font-size: 200%;
+            font-weight: bolder;
+            color: blue;
+        }
+        button{
+            background-image: linear-gradient(to right, rgb(0, 204, 255) , rgb(9, 255, 0));
+            height: 3rem;
+            width: 7rem;
+            margin-bottom: 1rem;
+            border-radius: 20px;
+        }
+    }
+}

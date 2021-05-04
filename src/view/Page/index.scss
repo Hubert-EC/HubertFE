@@ -1,0 +1,93 @@
+@import 'antd/dist/antd.css';
+
+.page{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(209, 208, 208);
+    .page-row1{
+        .page-col-left{
+            .page-menu{
+                >img{
+                    height: 7rem;
+                    width: 15rem;
+                    margin-bottom: 30px;
+                }
+            }
+            font-size: 20px;
+        }
+        .page-col-right{
+            //margin-right: 1rem;
+            padding-right: 20px;
+            padding-top: 10px;
+            .page-item{    
+                height: 7rem;
+                font-weight: bolder;
+                color: white;
+                text-align: center;
+                font-size: 25px;
+                border: rgb(0, 183, 255) solid 2px;  
+                background-image: linear-gradient(to right, #1768A3,#A00000);
+                padding-top: 2rem;
+            }
+            .page-row2{
+                .page-infor-left{
+                    //height: 30rem;
+                    p{
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-left: 2rem;
+                        color: rgb(0, 204, 255);
+                    }
+                    .page-infor{
+                        border: brown solid 1px;
+                        position: relative;
+                        p{
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: black;
+                        }
+                        input{
+                            display: inline;
+                            height: 1.5rem;
+                            //width: 30rem;
+                            margin-left: 2.5rem;
+                            padding-left: 1rem;
+                            border-radius: 10px;
+                            border: blueviolet solid 1px;
+                        }
+                        .page-btn{
+                            margin-top: 0.5rem;
+                            text-align: center;
+                            .update{
+                                color: white;
+                                text-decoration: none;
+                                background-color: #227de6;
+                                border-radius: 20px;
+                                display: inline-block;
+                                text-align: center;
+                                margin-bottom: 5px;
+                                font-weight: bold;
+                                font-size: 16px;
+                                width: 15rem;
+                                height: 2rem;
+                            }
+                        }
+                    }
+                }
+                .page-image-right{
+                    padding-top: 2.5rem;
+                    .page-image1{
+                        background-color: aqua;
+                        height: 25rem;
+                    } 
+                    .page-image2{
+                        background-color: blue;
+                        height: 5rem;
+                    }               
+                }
+            }
+            
+        }
+    }
+}

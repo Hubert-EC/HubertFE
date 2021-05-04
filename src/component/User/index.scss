@@ -1,0 +1,49 @@
+.user-infor{
+    margin-top: 2rem;
+    height: 27.8rem;
+    //width: 100%;
+    //border: brown solid 1px;
+    position: relative;
+    p{
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+    }
+    input{
+        display: inline;
+        height: 1.5rem;
+        width: 36rem;
+        margin-left: 2.5rem;
+        padding-left: 1rem;
+        border-radius: 10px;
+        border: blueviolet solid 1px;
+    }
+    .inline{
+        display: flex;
+        
+        p{
+            display: inline;
+        }
+        input{
+            width: 10.3rem;
+            display: inline;
+        }
+    }
+    .user-btn{
+        margin-top: 1.5rem;
+        margin-left: 15rem;
+        .update{
+            color: white;
+            text-decoration: none;
+            background-color: #227de6;
+            border-radius: 20px;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            width: 15rem;
+            height: 2rem;
+        }
+    }
+}

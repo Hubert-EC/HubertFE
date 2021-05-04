@@ -1,0 +1,46 @@
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #e67e22;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 0 70px;
+  width: 190px;
+  display: inline-block;
+  text-align: center;
+  transform: all 0.3s;
+  font-size: 150%;
+  font-weight: 600;
+  &:hover,
+  &:active {
+    background-color: #e35400;
+    color: rgb(0, 255, 34);
+  }
+}
+
+.h {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #e67e22;
+  font-size: 250%;
+  font-weight: 700;
+  text-align: center;
+  &::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: rgba(230, 126, 34, 0.5);
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+}
+.clear-fix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

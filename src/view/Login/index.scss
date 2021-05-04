@@ -1,15 +1,17 @@
-.content{
-    .left{
-        width: 50%;
+.login{
+    width: 100%;
+    height: 100%;
+    >img{
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 70%;
+    }
+    .login-left{
+        width: 40%;
         height: auto;
         float: left;
         color: white;
-        img{
-            position: absolute;
-            z-index: -1;
-            height: 100%;
-            width: 50%;
-        }
         button{
             background-color: white; 
             border: 2px solid Blue;
@@ -29,55 +31,72 @@
         h2{
             text-align: center;
             font-size: 25px;
-            margin: -30px 260px 20px 105px;
+            margin: -45px 100px 20px 105px;
         }
     }
-    .right{
+    .login-right{
         width: 50%;
         height: auto;
         float: right;
-        .right-top{
+        margin-top: 9rem;
+        .login-right-top{
             width: 100%;
             height: 15vh;
-            margin-top: 7rem;
             h1{
                 text-align: center;
-                font-size: 30px;
+                font-size: 40px;
                 font-weight: bolder;
                 color: blue;
+                margin-left: 19rem;
             }
             h5{
                 display: inline;
-                margin-left: 14rem;
+                margin-left: 23.5rem;
+                //margin-bottom: 1rem;
             }
             a{
                 margin-left: 10px;
             }
         }
-        .right-body{
+        .login-right-body{
             width: 100%;
             height: auto;
+            margin-top: 2rem;
+            float: right;
+            //margin-left: 20rem;
             input{
                 height: 2rem;
                 width: 25rem;
                 border-radius: 4px;
-                margin: 10px 10px 10px 145px;
+                margin: 15px 10px 10px 200px;
+                background-color: white;
+                padding-left: 10px;
             }
             a{
-                margin: 10px 10px 10px 455px;
+                margin-left: 31.6rem;
                 font-size: 13px;
             }
-            button{
+            .login{
                 font-size: 24px;
                 background-color: blue;
                 color: white;
-                margin: 30px 10px 10px 280px;
+                width: 11rem;
+                height: 3rem;   
+                margin-left: 26.5rem;           
+            }
+            .display{
+                margin-left: 35.8rem;
+                margin-top: 0.5rem;
+                img{
+                    width: 10px;
+                    height: 10px;
+                }
             }
         }
-        .right-bottom{
-            width: 100%;
-            height: auto;
-            margin-left: 9rem;
+        .login-right-bottom{
+            width: 20rem;
+            height: 5rem;
+            margin-left: 20.5rem;
             h4{
                 display: inline;
                 margin-right: 30px;
@@ -85,13 +104,15 @@
             }
             button{
                 height: 2rem;
-                width: 4rem;
+                width: 3rem;
                 background-color: blue;
                 color: white;
                 margin: 10px;
                 font-size: 24px;
                 border-radius: 20px;
+                text-align: center;
+                //padding: 2px 2px 2px 2px;
             }
         }
-    }    
+    }
 }

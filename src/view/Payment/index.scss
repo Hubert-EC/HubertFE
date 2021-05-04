@@ -1,0 +1,66 @@
+.payment{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right,#0F97E3,#FF9F9F);
+    font-family: sans-serif;
+    input[type=radio] {
+        width: 2rem;
+        height: 1.5rem;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+    }
+    img{
+        width: 10rem;
+        height: 7rem;
+    }
+    .payment-top{
+        .top{
+            width: auto;
+            height: auto;
+            margin-left: 28%;
+        }
+    }
+    hr {
+        width: 70%;
+        background-color: rgb(47, 0, 255);
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1.2rem;
+        margin-bottom: 2rem;
+        border-width: 2px;
+        border-color: rgb(13, 0, 128);
+        }
+    .payment-bot{
+        width: 100%;
+        height: auto;
+        //display: inline;
+        .bot-top{
+            margin-left: 15%;
+        }
+        .bot-bot{
+            margin-left: 12%;
+            margin-top: 2.4rem;
+        }
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        height: 3rem;
+        width: 10rem;
+        background-color: rgb(68, 0, 255);
+        color: white;
+        margin-left: 45%;
+        margin-top: 2rem;
+        font-size: 16px;
+        padding-top: 10px;
+        font-weight: bolder;
+        border-radius: 20px;
+        text-align: center;
+
+    }
+}

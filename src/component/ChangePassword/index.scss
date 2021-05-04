@@ -1,0 +1,37 @@
+.change-infor{
+    //border: brown solid 1px;
+    position: relative;
+    height: 27.8rem;
+    margin-top: 2rem;
+    p{
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+    }
+    input{
+        display: inline;
+        height: 1.5rem;
+        width: 30rem;
+        margin-left: 2.5rem;
+        padding-left: 1rem;
+        border-radius: 10px;
+        border: blueviolet solid 1px;
+    }
+    .change-btn{
+        margin-top: 0.5rem;
+        text-align: center;
+        .update{
+            color: white;
+            text-decoration: none;
+            background-color: #227de6;
+            border-radius: 20px;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            width: 15rem;
+            height: 2rem;
+        }
+    }
+}
