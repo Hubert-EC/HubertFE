@@ -1,16 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GlobalStyle from './globalStyles';
+import Home from './pages/HomePage/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+import { Navbar, Footer } from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Xin chào thầy Minh Cute :v
-        </p>
-      </header>
-    </div>
+    <Router>
+      <GlobalStyle />
+      <ScrollToTop />
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component={Home} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
