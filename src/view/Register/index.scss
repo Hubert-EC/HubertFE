@@ -1,0 +1,125 @@
+.register{
+    width: 100%;
+    height: 100%;
+    >img{
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 70%;
+    }
+    .register-left{
+        width: 40%;
+        height: auto;
+        float: left;
+        color: white;
+        margin-top: 90px;
+        button{
+            background-color: white; 
+            border: 2px solid Blue;
+            color: blue;
+            padding: 10px 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bolder;
+            border-radius: 10px;
+            margin-left: 100px;
+        }
+        h1{
+            font-size: 55px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    .register-right{
+        width: 50%;
+        height: auto;
+        float: right;
+        //margin-right: rem;
+        margin-top: 9rem;
+        .register-right-top{
+            width: 100%;
+            height: 15vh;   
+            h1{
+                
+                font-size: 30px;
+                font-weight: bolder;
+                color: blue;
+                margin-left: 30rem;
+            }
+            h5{
+                display: inline;
+                margin-left: 22.5rem;
+            }
+            a{
+                margin-left: 10px;
+            }
+        }
+        .register-right-body{
+            width: 100%;
+            height: auto;
+            input{
+                height: 2rem;
+                width: 30rem;
+                border-radius: 4px;
+                margin: 0 0 10px 120px;
+                padding-left: 20px;
+            }
+            .fname{
+                height: 2rem;
+                width: 8rem;
+            }
+            .lname{
+                height: 2rem;
+                width: 21.8rem;
+                margin-left: 2px;
+            }
+            .so{
+                width: 3rem;
+                height: 2rem;
+                text-align: center;
+                font-size: 16px;
+                background-color: white;
+                color: black;
+                font-weight: bold;
+                margin: 0px 10px 10px 120px;
+                border-radius: 4px;
+            }
+            .phone{
+                height: 2rem;
+                width: 26.3rem;
+                margin-left: 0px;
+            }
+            .register{
+                //font-size: 24px;
+                height: 2rem;
+                width: 10rem;
+                background-color: blue;
+                color: white;
+                text-align: center;
+                border-radius: 8px;
+                margin: 10px 0px 10px 440px;
+            }
+        }
+        .register-right-bottom{
+            width: 100%;
+            height: auto;
+            h4{
+                display: inline;
+                font-size: 16px;
+            }
+            button{
+                height: 2rem;
+                width: 14.5rem;
+                background-color: blue;
+                color: white;
+                margin-left: 10px;
+                font-size: 17px;
+                border-radius: 20px;
+            }
+        }
+    }    
+}

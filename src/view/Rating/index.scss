@@ -1,0 +1,39 @@
+.rating{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right,#0F97E3,#FF9F9F);
+    font-family: sans-serif;
+    
+    .rate{    
+        border: black solid 1px;
+        height: auto;   
+        width: 70%;
+        margin-left: 17rem;
+        background-color:white;
+        img{
+            height: 10rem;
+            width: 10rem;
+            margin-top: 1rem;
+            margin-left: 42%;
+        }
+        textarea{
+            margin-left: 1rem;
+        }
+        button{
+            display: flex;
+            justify-content: center;
+            height: 3rem;
+            width: 10rem;
+            background-color: rgb(68, 0, 255);
+            color: white;
+            margin-top: 2rem;
+            margin-left: 42%;
+            margin-bottom: 1.3rem;
+            font-size: 16px;
+            padding-top: 10px;
+            font-weight: bolder;
+            border-radius: 20px;
+            text-align: center;
+        }
+    }
+}

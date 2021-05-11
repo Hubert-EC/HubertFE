@@ -1,0 +1,16 @@
+p{
+    font-size: 14px;
+    margin-left: 1rem;
+}
+.star{
+    width: 30%;
+    height: 3rem;
+    padding-top: 0.7rem;
+    border:black solid 1px;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    input[type='radio']{
+        display: none;
+    }
+}
