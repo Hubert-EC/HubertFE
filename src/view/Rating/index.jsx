@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.scss'
-import Star from '../../component/Star'
+import Star from '../../components/Functions/Star'
 
 const Rating = () => {
     return (

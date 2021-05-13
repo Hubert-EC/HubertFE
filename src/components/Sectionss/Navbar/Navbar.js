@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { AiFillHome } from 'react-icons/ai';
-import { Button } from '../../globalStyles';
+import { Button } from '../../../globalStyles';
 import {
   Nav,
   NavbarContainer,
@@ -42,7 +42,7 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              HUBERT
+            <img src={require('../../../images/EC18A009-logo-removebg-preview.png').default}alt="Responsive image" width="50%"/>
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

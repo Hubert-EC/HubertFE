@@ -1,11 +1,11 @@
 import React from 'react'
-import 'antd/dist/antd.css';
+import '../../../node_modules/antd/dist/antd.css';
 import { Menu} from 'antd';
 import { Row, Col } from 'antd';
 import {UserOutlined,KeyOutlined,HomeOutlined,ShoppingCartOutlined,HeartOutlined,FileOutlined } from '@ant-design/icons';
 import './index.scss'
-import ChangePass from '../../component/ChangePassword'
-import User from '../../component/User'
+import ChangePass from '../../components/Functions/ChangePassword';
+import User from '../../components/Functions/User';
 
 
 
